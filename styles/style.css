@@ -68,3 +68,53 @@ nav{
     margin: 15px;
     margin-left: 20px;
 }
+.img-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;border-radius: 10px;
+
+
+}
+.food img{
+    width:100% ;
+    border-radius: 15px;
+}
+.price-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;border-radius: 10px;
+}
+.food-2 img{
+    width:100% ;
+    border-radius: 15px;
+
+}
+.food-2{
+    background-color: aquamarine;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+.buy-now{
+    border: none;
+    border-radius: 15px;
+    width: 20px
+    margin: 5px;
+    margin-left: 45%;
+    padding: 20px;
+    
+    
+}
+.buy-now:hover{
+    background-color: lightgreen;
+}
+
+
+@media screen and (max-width:576px) {
+    .img-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .price-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
